@@ -6,7 +6,8 @@
 
 html,
 body{
-  background-color: #1b1b32;
+  background-color: #DE9817;
+  width: 100vw;
 }
 
 .app{
@@ -23,18 +24,18 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px;
   width: 100%;
 }
 
 .bart-img{
-  height: 200px;
+  height: 120px;
+  margin: 50px 20px;
 }
 
 .contenedor-contador{
-  height: 550px;
+  height: auto;
   display: flex;
-  min-width: 600px;
+  min-width: 400px;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;

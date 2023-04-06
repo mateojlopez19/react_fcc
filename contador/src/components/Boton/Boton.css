@@ -1,9 +1,9 @@
 button{
   width: 250px;
   height: 80px;
-  font-size: 35px;
+  font-size: 255px;
   font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   color: white;
   border: 2px solid white;
   border-radius: 15px;
@@ -12,13 +12,17 @@ button{
 }
 
 button:hover{
-  background-color: #00471b;
+  background-color: #059458;
 }
 
 .boton-click{
-  background-color: #002ead;
+  background-color: #00804A;
 }
 
 .boton-reiniciar{
-  background-color: #5a01a7;
+  background-color: #4b0202;
+}
+
+button.boton-reiniciar:hover{
+  background-color: #500C27;
 }
